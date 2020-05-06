@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/urun/{isim}/{soyad?}', function ($isim, $soyad=null) {
+    return "Merhaba: $isim $soyad";
 });
