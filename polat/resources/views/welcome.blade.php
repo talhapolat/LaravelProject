@@ -21,7 +21,8 @@
             }
 
             .full-height {
-                height: 100vh;
+                height: 100%;
+                background-color: pink;
             }
 
             .flex-center {
@@ -79,10 +80,16 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="">assad</a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="">assad</a>
+                    </div>
                 </div>
+            </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
